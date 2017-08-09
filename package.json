@@ -1,0 +1,15 @@
+{
+  "name": "learn_to_test",
+  "version": "1.0.0",
+  "description": "Some materials to an introduction to testing class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alonisser",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "4.1.1",
+    "mocha": "3.5.0"
+  }
+}
