@@ -8,20 +8,49 @@ class: center, middle
 #####Shameless promotion: you can also read my political blog: [דגל אדום](degeladom@wordpress.com)
 ---
 
-# The dream of One Integrated system
+# So you think you know what to do with phone numbers
 
-Once men dreamt of one integrated system, answering all possible needs.
+* So lets build a test driven phone number normalizer, which is invoked by user input and normalize it with removing hyphen/s
 
---
+---
+# Error handling
 
-Of course we know how that ends
+* Oh, we forgot, should throw an error on invalid input
 
---
+---
 
-"One Ring to rule them all, One Ring to find them,
- One Ring to bring them all and in the darkness bind them"
+# Mexico
 
-.img-half-container[![the one ring](./one-ring.png)]
+* Oh no. we moved to mexico and people are saving strange inputs (01) 55 1234 5678
+
+
+---
+
+# Special numbers should be supported of course
+
+* Like *3320 for our super rich and connected client
+
+---
+# Internationl numbers 
+
+* When international number drop unneeded zero +972-054-673-4469 => +972546734469
+
+---
+
+# Forgetful clients  
+
+* When international number drop unneeded zero +972-054-673-4469 => +972546734469
+
+---
+
+# Demented clients  
+
+* Some of international users add leading 00 to get inernational line before the number. should be removed
+
+---
+# The germans
+
+* The germans are coming +49 (AAAA) BBBBBB
 
 ---
 
