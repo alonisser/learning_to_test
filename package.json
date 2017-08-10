@@ -9,6 +9,8 @@
   "author": "alonisser",
   "license": "MIT",
   "dependencies": {
+    "bitly": "4.1.1",
+    "bluebird": "3.5.0",
     "chai": "4.1.1",
     "mocha": "3.5.0",
     "sinon": "3.1.0"
