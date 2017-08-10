@@ -17,18 +17,6 @@ describe('phone normalizer functionality', ()=> {
         expect(normalizedResult).to.be.eq('0546734469')
     });
 
-    //Throw a PhoneValidationError on invalid phone
-
-    // Oh no. we moved to mexico (01) 55 1234 5678
-
-    //Support *3320 format
-
-    //When international number drop unneeded zero +972-054-673-4469 => +972546734469
-
-    // Some of international users add leading 00 to get inernational line before the number. should be removed
-
-    // The germans are coming +49 (AAAA) BBBBBB
-
 
 
 });
