@@ -8,6 +8,32 @@ class: center, middle
 #####Shameless promotion: you can also read my political blog: [דגל אדום](degeladom@wordpress.com)
 ---
 
+# Why test (A quick recap)
+
+* Validate our code is actually doing what we expect.
+* Promotes good (better..) design, clearer api, decoupling, high cohesion.
+* Faster development cycles (Really!) catching bugs early and fast.
+* Documents what the good is supposed to be doing
+* Ability to refactor (even a year later when the code does not look familiar anymore)
+* Ours users are not our QA "volunteers" 
+
+---
+# Unit test
+
+* Fast, accurate
+* Good for stateless functions, calculators, resolvers, etc
+* Also for logic encapsulating UI elements (Think react/angular/vue elements)
+
+---
+# Terminology
+
+* setUp/tearDown
+* Unit under test
+---
+* Red Green Refactor
+
+---
+
 # So you think you know what to do with phone numbers
 
 * So lets build a test driven phone number normalizer, which is invoked by user input and normalize it with removing hyphen/s
